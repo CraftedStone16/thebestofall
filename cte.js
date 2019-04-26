@@ -9,7 +9,7 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {
-  if (message.author.id === '571143737355534336') return;
+  if (message.author.id === '398947686415466497') return;
   if (message.channel.id === '568902221538787343') return;
   if (message.channel.id === '568902288551182366') return;
   if (message.channel.id === '568902547599786004') return;
@@ -213,7 +213,7 @@ client.on('message', async message => {
    } else return message.author.send('Failed to advance you to the next shaft, make sure you have enough invites!');
  }
  // Shaft 16
-  if (message.content === (prefix + 'feburary92019')) {
+  if (message.content === (prefix + 'february92019')) {
     if (message.channel.id !== '569027359462916117') return;
     message.member.removeRole(shaft16)
     message.member.addRole(shaft17)
