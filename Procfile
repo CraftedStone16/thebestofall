@@ -1,1 +1,1 @@
-worker: cte.js
+worker: node cte.js
